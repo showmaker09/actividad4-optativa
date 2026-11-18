@@ -1,0 +1,118 @@
+# Credenciales y secretos
+# La cadena de Atlas (MONGODB_URI / MONGO_URI), DB_NAME y cualquier
+# contraseña viven solo en .env. Ese archivo no se versiona.
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+credentials.yaml
+*credencial*
+*credential*
+*secret*
+*password*
+*passwd*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.kdbx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ecdsa
+id_ecdsa.pub
+.npmrc
+.netrc
+
+# Información personal
+# Datos de identidad, contacto, notas privadas y exportaciones locales.
+datos_personales/
+personal/
+privado/
+private/
+*.personal.md
+*.privado.md
+contacto.json
+contactos.json
+contactos.csv
+agenda.csv
+*.vcf
+*.vcard
+curriculum.pdf
+cv.pdf
+hoja_de_vida.pdf
+identificacion.*
+ine.*
+pasaporte.*
+comprobante.*
+
+# Información del sistema
+# Metadatos y archivos que genera el sistema operativo.
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+*.tmp
+*.temp
+~$*
+System Volume Information/
+pagefile.sys
+hiberfil.sys
+swapfile.sys
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.directory
+.Trash-*
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Editores y registros locales
+# Los registros pueden contener cadenas de conexión del sistema.
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Respaldos locales de bases de datos
+*.dump
+dump/
+*.bson
+*.archive
